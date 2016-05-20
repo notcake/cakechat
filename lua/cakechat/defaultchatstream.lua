@@ -1,0 +1,1 @@
+local self = {}CakeChat.DefaultChatStream = CakeChat.MakeConstructor (self, CakeChat.ChatStream)function self:ctor ()	-- Identity	self.Server = nil -- GLib.GetCurrentServer ()		self.DisplayName = "Default"		-- Users	self.UserSet = nil -- self.Server:GetUserSet ()endfunction self:dtor ()endCakeChat.DefaultChatStream = CakeChat.DefaultChatStream ()
